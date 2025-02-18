@@ -5,7 +5,6 @@ abstract class Goal
     public string Name;
     protected int Points;
     protected bool IsComplete;
-
     protected Goal(string name, int points)
     {
         Name = name;
